@@ -10,9 +10,9 @@ Full-stack application for tracking and summarizing user activity events.
 
 ### Setup
 1.  **Database**:
-    -   Ensure PostgreSQL is running.
+    -   Ensure MongoDB is running.
     -   Create a database named `activity_timeline` (or update `.env` in `server/`).
-    -   Default connection: `postgresql://postgres:postgres@localhost:5432/activity_timeline`
+    -   Default connection: `mongodb+srv://mongoDBurl/activity_timeline`
 
 2.  **Backend**:
     ```bash
@@ -32,9 +32,8 @@ Full-stack application for tracking and summarizing user activity events.
 
 ## Design Decisions
 -   **Backend**:
-    -   Used `pg` library for native PostgreSQL queries to avoid ORM overhead and meet constraints.
     -   Manual validation implemented in `server.js` to avoid external validation libraries.
-    -   Single file `server.js` for simplicity, with separated `db.js` for connection.
+    -   Single file `server.js` for simplicity, with separated `db.js` for connection, used Moduler pattern for better code understanding
 -   **Frontend**:
     -   React with Vite for a modern, fast development experience.
     -   Plain CSS (`index.css`) with CSS variables for consistent theming without UI libraries.
