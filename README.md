@@ -6,7 +6,7 @@ Full-stack application for tracking and summarizing user activity events.
 
 ### Prerequisites
 - Node.js
-- PostgreSQL
+- MongoDB
 
 ### Setup
 1.  **Database**:
@@ -20,7 +20,7 @@ Full-stack application for tracking and summarizing user activity events.
     npm install
     node server.js
     ```
-    The server runs on `http://localhost:3000`. The database schema is initialized automatically on start.
+    The server runs on `http://localhost:5000`. The database schema is initialized automatically on start.
 
 3.  **Frontend**:
     ```bash
