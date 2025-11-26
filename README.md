@@ -50,7 +50,7 @@ Full-stack application for tracking and summarizing user activity events.
     -   Component-based structure (`EventForm`, `EventList`, `Summary`) for maintainability and reusability.
 
 ## Time Spent
--   Approximately 4-5 hours across planning, implementation, testing, and documentation.
+-   Approximately 50 min across planning, implementation, testing, and documentation.
 
 ## Challenges Faced
 -   Implementing manual validation for different event types required careful type checking and error aggregation.
